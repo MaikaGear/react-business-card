@@ -1,0 +1,174 @@
+* {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.card-box{
+    margin: 0 auto;
+    background-color: #1A1B21;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: black 1.95px 1.95px 2.6px;
+}
+
+.card-box:hover{
+    box-shadow:  rgba(74,183,228,255) 0px 7px 29px 0px;
+    transform: translateY(-1px);
+}
+
+body{
+    background-color: #3e5c76;
+    margin-top: 50px;
+    color: white;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+a:active{
+    opacity: 0.4;
+}
+
+
+a{
+    transition: 0.2s;
+}
+
+/* Top content */
+
+img{
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.info-box{
+    text-align: center;
+}
+
+.info-text-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text-box > * {
+    margin: 5px;
+}
+
+.info-text-box > h2{
+    margin-top: 25px;
+    margin-bottom: 6px;
+    font-size: 30px;
+}
+
+.info-text-box > h3{
+    margin-top: 0;
+}
+.info-text-box > h4 {
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: small;
+}
+.info-text-box > h3 {
+    color: #8f0805
+}
+
+/* Buttons and icons */
+
+.btn{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email-btn{
+    padding-right: 18px;
+    padding-left: 28px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    width: 90px;
+}
+
+.linkedin-btn{
+    background-color: #5093E2;
+    color: white;
+    text-decoration: none;
+    width: auto;
+} 
+
+
+span{
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.info-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.email-icon{
+    position: absolute;
+    right: 88px;    
+    bottom: 11px;
+}
+
+.linkedin-icon{
+    position: absolute;
+    bottom: 12px;
+    right: 95px;
+} 
+
+.linkedin-text{
+    margin-left: 18px;
+}
+
+/* About me and Interests */
+
+.about-me-box, .interests-box{
+    margin: auto 30px;
+}
+
+.about-me-box > p, .interests-box p{
+    margin-top: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.interests-box {
+    margin-bottom: 30px;
+}
+
+.about-me-box > h4, .interests-box > h4{
+    margin-bottom: 5px;
+    color: #4ab7e4;
+    font-size: 22px;
+}
+
+/*Footer*/
+
+.footer-box{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #161619;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.footer-box > a {
+    cursor: pointer;
+}
